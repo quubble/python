@@ -1,3 +1,3 @@
 # Python
-This is a simple Micro Seconds Clock Python Program.
+This Repository has simple Python Programs.
 Thank You.
