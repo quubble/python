@@ -15,4 +15,4 @@ print("\n")
  
 euro = round((pound/exchangeRate),2) #This for caluclation.
 
-print("You will receive €{0} Euros for your holiday.".format(euro))
+print(f"You will receive €{euro} Euros for your holiday.")
