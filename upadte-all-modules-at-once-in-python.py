@@ -1,5 +1,6 @@
-import pkg_resources
-from subprocess import call
+# update-all-python-packages-at-once USING PIP Powershell.py
 
-packages = [dist.project_name for dist in pkg_resources.working_set]
-call("pip install --upgrade " + ' '.join(packages), shell=True)
+C:;cd C:\Users\asus\AppData\Local\Programs\Python\Python312;python -m pip install --upgrade pip;pip list --outdated;pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+
+#pip freeze > requirements.txt
+#pip freeze > requirements.txt
