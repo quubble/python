@@ -21,4 +21,3 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print("Error occurred; {0}".format(e))
     
-#https://www.perplexity.ai/search/Creating-a-Speech-afBeEGNDSbS5zfpZUuQHeg
